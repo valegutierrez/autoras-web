@@ -1,0 +1,99 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.lime-green {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  float: left;
+  margin: 0;
+  width: 50%;
+  padding: 8vw;
+  background-color: #D9ED92;
+}
+
+.white-logo {
+  color: #B5E48C;
+  float: left;
+  margin: 0;
+  width: 50%;
+  padding-top: 4vw;
+  padding-left: 10vw;
+  padding-right: 2vw;
+  background-color: #FFFFFF;
+}
+
+.bold-poppins {
+  font-weight: 700!important;
+}
+
+.titles-projects {
+  font-size: 5rem;
+}
+
+.subtitles {
+  font-size: 2rem;
+}
+
+.card {
+  background-color: #52B69A;
+  max-width: 770px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.card:hover {
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  z-index: 999;
+}
+
+.card-img {
+  object-fit: cover;
+  flex: 1;
+}
+
+.footer-class {
+  background-color: #1E6091;
+  padding-left: 10vw;
+  margin-right: 9.5vw;
+}
+
+.navbar {
+  position: fixed!important;
+  opacity: 0;
+}
+
+.card-img-overlay {
+  padding-left: 30px;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .lime-green {
+    padding-top: 18em;
+    width: 100%;
+  }
+
+  .white-logo {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    padding: 4vw;
+  }
+
+  .footer-class {
+    background-color: #1E6091;
+    width: 100%;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+}
