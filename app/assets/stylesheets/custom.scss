@@ -105,6 +105,14 @@ body {
   z-index: 100;
   opacity: 1;
 }
+@media screen and (max-width: 1300px) {
+  .card-project1 {
+    max-width: 500px;
+  }
+  .card-project2 {
+    max-width: 500px;
+  }
+}
 
 
 @media screen and (max-width: 768px) {
