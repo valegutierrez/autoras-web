@@ -161,3 +161,6 @@ body {
 .padding-description {
   padding-left: 30px;
 }
+.container-fluid>.row {
+  clear: both;
+}
