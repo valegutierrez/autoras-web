@@ -36,11 +36,11 @@ body {
 }
 
 .titles-projects {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .subtitles {
-  font-size: 2rem!important;
+  font-size: 1.8rem!important;
 }
 
 .card-project1:hover {
@@ -54,9 +54,9 @@ body {
 }
 
 .card-project1{
-  max-width: 700px;
   height: 400px;
   background-image: image-url('sandra.png');
+  background-position: bottom right;
   background-size: cover;
   background-color: #52B69A;
   -webkit-transition: background-image 0.5s linear;
@@ -74,7 +74,6 @@ body {
 }
 
 .card-project2{
-  max-width: 700px;
   height: 400px;
   background-image: image-url('scratch.png');
   background-size: cover;
@@ -105,12 +104,14 @@ body {
   z-index: 100;
   opacity: 1;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 850px) {
   .card-project1 {
-    max-width: 500px;
+    max-width: 40vw;
+    height: 400px;
   }
   .card-project2 {
-    max-width: 500px;
+    max-width: 40vw;
+    height: 400px;
   }
 }
 
